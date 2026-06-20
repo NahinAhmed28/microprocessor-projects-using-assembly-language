@@ -1,26 +1,30 @@
 # Microprocessor Projects Using Assembly Language
 
-This repository contains microprocessor and assembly-language practice projects. It is intended for low-level programming exercises, instruction-set learning, and academic lab work.
+This repository contains microprocessor and assembly-language practice projects.
 
-## Project Details
+## Features
 
-- Repository: `NahinAhmed28/microprocessor-projects-using-assembly-language`
-- Default branch: `main`
-- Visibility: public
-- Project type: assembly language / microprocessor lab
-- Main focus: low-level programming examples
+- Assembly-language examples and lab exercises
+- Low-level instruction and register practice
+- Simulator/assembler-ready source files
+- Useful reference for academic microprocessor tasks
+
+## Modules
+
+- Source module: assembly files grouped by exercise
+- Instruction module: arithmetic, branching, memory, and I/O examples
+- Simulation module: processor/tool-specific run steps
+- Documentation module: notes about expected input/output behavior
+
+## System Architecture
+
+Each program is a standalone low-level routine executed by a processor simulator or assembler. The source code interacts directly with registers, memory, and processor instructions. There is no web, API, or database layer; execution depends on the chosen microprocessor target and toolchain.
 
 ## Getting Started
-
-Clone the repository and open the assembly source files in the simulator, assembler, or IDE required by the course or project.
 
 ```bash
 git clone https://github.com/NahinAhmed28/microprocessor-projects-using-assembly-language.git
 cd microprocessor-projects-using-assembly-language
 ```
 
-Document the exact target processor, assembler, and simulation steps as the project becomes more complete.
-
-## Notes
-
-Assembly projects often depend on a specific processor model and toolchain. Add those details here so the examples can be reproduced reliably.
+Open the assembly files in the required assembler or simulator and document the exact target processor here.
